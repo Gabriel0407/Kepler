@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    font-family: 'Teko', sans-serif;
+    padding: 0%;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    
+}
+body{
+   background-image: url(../../img/wallpaper.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: auto;
+    .space{
+        width: 100%;
+        height: 1.5px;
+        box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.7);
+        opacity: 70%;
+        background-image: linear-gradient(to bottom, #a342fb, #db00d0, #f800a2, #ff0075, #ff004d, #ff004d, #ff004d, #ff004d, #ff0075, #f800a2, #db00d0, #a342fb);
+}
+
+}
