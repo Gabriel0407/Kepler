@@ -109,11 +109,16 @@ body {
 .games .containerEsport {
   width: 100%;
   height: auto;
-  background-color: rgba(0, 0, 0, 0.6); }
+  background-color: rgba(0, 0, 0, 0.6);
+  cursor: pointer; }
+  .games .containerEsport:hover {
+    box-shadow: 0px 0px 46px -4px rgba(213, 127, 215, 0.65); }
+    .games .containerEsport:hover h2 {
+      color: gray; }
   .games .containerEsport h2 {
     font-size: 35px;
     text-align: center;
-    margin-bottom: 30px; }
+    margin-bottom: 35px; }
   .games .containerEsport .cod {
     width: 100%;
     height: 250px;
@@ -208,5 +213,16 @@ body {
     background-image: url(../../img/go4.jpg); }
   100% {
     background-image: url(../../img/go1.jpg); } }
+.links {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly; }
+  .links .link {
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-shadow: 2px 0px 13px rgba(255, 60, 60, 0.76); }
+    .links .link:hover {
+      text-shadow: 2px 0px 13px rgba(49, 253, 255, 0.76);
+      font-size: 40px; }
 
 /*# sourceMappingURL=style.css.map */

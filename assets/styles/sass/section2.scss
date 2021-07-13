@@ -23,10 +23,17 @@
         width: 100%;
         height: auto;
         background-color: rgba(0, 0, 0, 0.6);
+        cursor: pointer;
+        &:hover{
+            box-shadow: 0px 0px 46px -4px rgba(213,127,215,0.65);
+            h2{
+                color: gray;
+            }
+        }
         h2{
             font-size: 35px;
             text-align: center;  
-            margin-bottom: 30px;     
+            margin-bottom: 35px;     
         }
         .cod{
             width: 100%;
