@@ -229,19 +229,58 @@ body {
     z-index: 2; }
     .register #popUp .container .formContainer {
       width: 90%;
-      height: 600px;
+      height: 700px;
       border-radius: 30px;
       margin: 0 5%;
       z-index: 3;
       top: 50%;
       position: fixed;
       background-image: linear-gradient(to bottom, #3d0707, #5f0811, #830616, #a8031a, #cf001b);
-      margin-top: -300px; }
+      margin-top: -350px; }
       .register #popUp .container .formContainer .close-button {
         font-size: 30px;
-        float: right;
         margin-right: 20px;
-        margin-top: 20px; }
+        margin-top: 20px;
+        position: relative;
+        left: 88%; }
+      .register #popUp .container .formContainer .form {
+        display: flex;
+        flex-direction: column;
+        margin: 25px; }
+        .register #popUp .container .formContainer .form #send {
+          color: white;
+          border-radius: 16px;
+          width: 50%;
+          height: 50px;
+          font-size: 32px;
+          margin: 32px auto;
+          background-color: black;
+          border: black; }
+          .register #popUp .container .formContainer .form #send:hover {
+            transform: scale(1.05); }
+        .register #popUp .container .formContainer .form h2 {
+          text-align: center;
+          font-size: 45px;
+          letter-spacing: 4px;
+          color: #ffffff; }
+        .register #popUp .container .formContainer .form label {
+          font-size: 26px;
+          margin: 2px; }
+        .register #popUp .container .formContainer .form input, .register #popUp .container .formContainer .form select {
+          color: black;
+          outline: none;
+          font-size: 20px;
+          border-radius: 12px;
+          padding: 2px 17px; }
+        .register #popUp .container .formContainer .form .divGroup {
+          display: flex;
+          justify-content: center; }
+          .register #popUp .container .formContainer .form .divGroup div {
+            display: flex;
+            flex-direction: column;
+            margin: 0px 10px; }
+            .register #popUp .container .formContainer .form .divGroup div input {
+              margin: auto; }
   .register #register {
     width: 50%;
     height: 55px;
