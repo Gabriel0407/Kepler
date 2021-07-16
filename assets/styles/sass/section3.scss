@@ -1,0 +1,59 @@
+.register{
+    width: 100%;
+    height: 100px;
+    #popUp{
+      
+      .container{
+        width: 100%;
+        height: 100%;
+        background-color: #140d3cbf;
+        position: fixed;
+        top: 0%;
+        z-index: 2;
+        .formContainer{
+          width: 90%;
+          height: 600px;
+          border-radius: 30px;
+          margin:0 5% ;
+          z-index: 3;
+          top: 50%;
+          position: fixed;
+          background-image: linear-gradient(to bottom, #3d0707, #5f0811, #830616, #a8031a, #cf001b);
+          margin-top: -300px;
+
+          .close-button{
+            font-size: 30px;
+            float: right;
+            margin-right: 20px;
+            margin-top: 20px;
+          }
+        }
+      }
+     }
+    
+    #register{
+        width: 50%;
+        height: 55px;
+        background-color: rgba(153, 1, 1, 0.801);
+        margin: auto;
+        border-radius: 25px ;
+        
+      display: flex;
+      align-items: center;
+      &:hover{
+        transform: scale(1.05);
+        box-shadow: 0px 0px 20px 6px rgba(109, 70, 236, 0.7);
+       background-color: rgba(255, 0, 0, 0.9);
+      }
+      h3{
+        margin: auto;
+        color: rgb(255, 255, 255);
+        font-family: 'Gugi', cursive;
+        text-shadow: 0px 0px 8px rgba(0,0,0,1);
+        font-size: 24px;
+        letter-spacing: 1px;
+        
+      }
+       
+    }
+  }

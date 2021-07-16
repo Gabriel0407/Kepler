@@ -126,21 +126,22 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    transition: 5s;
-    animation-name: cod;
-    animation-direction: alternate-reverse;
-    animation-duration: 30s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-play-state: running;
-    animation-timing-function: ease-in-out; }
+    transition: 5s; }
+    .games .containerEsport .cod:hover {
+      animation-name: cod;
+      animation-direction: alternate-reverse;
+      animation-duration: 10s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: infinite;
+      animation-play-state: running;
+      animation-timing-function: ease-in-out; }
 @keyframes cod {
   0% {
-    background-image: url(../../img/cod2.jpg); }
+    background-image: url(../../img/cod3.jpg); }
   50% {
-    background-image: url(../../img/cod.jpg); }
+    background-image: url(../../img/cod2.jpg); }
   100% {
-    background-image: url(../../img/cod3.jpg); } }
+    background-image: url(../../img/cod.jpg); } }
   .games .containerEsport .pubg {
     width: 100%;
     height: 250px;
@@ -148,14 +149,15 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    transition: 5s;
-    animation-name: pubg;
-    animation-direction: alternate-reverse;
-    animation-duration: 30s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-play-state: running;
-    animation-timing-function: ease-in-out; }
+    transition: 5s; }
+    .games .containerEsport .pubg:hover {
+      animation-name: pubg;
+      animation-direction: alternate-reverse;
+      animation-duration: 8s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: infinite;
+      animation-play-state: running;
+      animation-timing-function: ease-in-out; }
 @keyframes pubg {
   0% {
     background-image: url(../../img/pu2.jpg); }
@@ -172,14 +174,15 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    transition: 5s;
-    animation-name: free;
-    animation-direction: alternate-reverse;
-    animation-duration: 30s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-play-state: running;
-    animation-timing-function: ease-in-out; }
+    transition: 5s; }
+    .games .containerEsport .freeFire:hover {
+      animation-name: free;
+      animation-direction: alternate-reverse;
+      animation-duration: 8s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: infinite;
+      animation-play-state: running;
+      animation-timing-function: ease-in-out; }
 @keyframes free {
   0% {
     background-image: url(../../img/fre2.jpg); }
@@ -196,14 +199,15 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    transition: 5s;
-    animation-name: cs;
-    animation-direction: alternate-reverse;
-    animation-duration: 30s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-play-state: running;
-    animation-timing-function: ease-in-out; }
+    transition: 5s; }
+    .games .containerEsport .csgo:hover {
+      animation-name: cs;
+      animation-direction: alternate-reverse;
+      animation-duration: 20s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: infinite;
+      animation-play-state: running;
+      animation-timing-function: ease-in-out; }
 @keyframes cs {
   0% {
     background-image: url(../../img/go2.jfif); }
@@ -213,6 +217,51 @@ body {
     background-image: url(../../img/go4.jpg); }
   100% {
     background-image: url(../../img/go1.jpg); } }
+.register {
+  width: 100%;
+  height: 100px; }
+  .register #popUp .container {
+    width: 100%;
+    height: 100%;
+    background-color: #140d3cbf;
+    position: fixed;
+    top: 0%;
+    z-index: 2; }
+    .register #popUp .container .formContainer {
+      width: 90%;
+      height: 600px;
+      border-radius: 30px;
+      margin: 0 5%;
+      z-index: 3;
+      top: 50%;
+      position: fixed;
+      background-image: linear-gradient(to bottom, #3d0707, #5f0811, #830616, #a8031a, #cf001b);
+      margin-top: -300px; }
+      .register #popUp .container .formContainer .close-button {
+        font-size: 30px;
+        float: right;
+        margin-right: 20px;
+        margin-top: 20px; }
+  .register #register {
+    width: 50%;
+    height: 55px;
+    background-color: rgba(153, 1, 1, 0.801);
+    margin: auto;
+    border-radius: 25px;
+    display: flex;
+    align-items: center; }
+    .register #register:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 0px 20px 6px rgba(109, 70, 236, 0.7);
+      background-color: rgba(255, 0, 0, 0.9); }
+    .register #register h3 {
+      margin: auto;
+      color: white;
+      font-family: 'Gugi', cursive;
+      text-shadow: 0px 0px 8px black;
+      font-size: 24px;
+      letter-spacing: 1px; }
+
 .links {
   width: 100%;
   display: flex;

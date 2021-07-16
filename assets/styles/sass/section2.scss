@@ -44,27 +44,27 @@
             background-size: cover;
             transition: 5s; 
 
-
+            &:hover{
             animation-name:cod ;
             animation-direction:alternate-reverse ;
-            animation-duration: 30s;
+            animation-duration: 10s;
             animation-fill-mode: forwards;
             animation-iteration-count: infinite;
             animation-play-state: running;
             animation-timing-function:ease-in-out ;
-            
+            }
         }
 
 
         @keyframes cod{
             0%{
-                background-image: url(../../img/cod2.jpg);
+                background-image: url(../../img/cod3.jpg);
             }
             50%{
-                background-image: url(../../img/cod.jpg);
+                background-image: url(../../img/cod2.jpg);
             }
             100%{
-                background-image: url(../../img/cod3.jpg);
+                background-image: url(../../img/cod.jpg);
             }
         }
             .pubg{
@@ -76,15 +76,16 @@
                 background-size: cover;
                 transition: 5s; 
 
-
+                &:hover{
                 animation-name:pubg ;
                 animation-direction:alternate-reverse ;
-                animation-duration: 30s;
+                animation-duration: 8s;
                 animation-fill-mode: forwards;
                 animation-iteration-count: infinite;
                 animation-play-state: running;
                 animation-timing-function:ease-in-out ;
             }
+        }
 
 
             @keyframes pubg{
@@ -110,15 +111,16 @@
                     background-size: cover;
                     transition: 5s; 
 
-
+                    &:hover{
                     animation-name:free ;
                     animation-direction:alternate-reverse ;
-                    animation-duration: 30s;
+                    animation-duration: 8s;
                     animation-fill-mode: forwards;
                     animation-iteration-count: infinite;
                     animation-play-state: running;
                     animation-timing-function:ease-in-out ;
                 }
+            }
 
 
                 @keyframes free{
@@ -144,16 +146,16 @@
                         background-size: cover;
                         transition: 5s; 
 
-
+                        &:hover{
                         animation-name:cs ;
                         animation-direction:alternate-reverse ;
-                        animation-duration: 30s;
+                        animation-duration: 20s;
                         animation-fill-mode: forwards;
                         animation-iteration-count: infinite;
                         animation-play-state: running;
                         animation-timing-function:ease-in-out ;
                     }
-
+                }
 
                     @keyframes cs{
                         0%{

@@ -1,0 +1,13 @@
+.links {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly; }
+  .links .link {
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-shadow: 2px 0px 13px rgba(255, 60, 60, 0.76); }
+    .links .link:hover {
+      text-shadow: 2px 0px 13px rgba(49, 253, 255, 0.76);
+      font-size: 40px; }
+
+/*# sourceMappingURL=contact.css.map */
