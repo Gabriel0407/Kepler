@@ -6,6 +6,7 @@
     height: 100%;
     background-color: #140d3cbf;
     position: fixed;
+    display: none;
     top: 0%;
     z-index: 2; }
     .register #popUp .container .formContainer {

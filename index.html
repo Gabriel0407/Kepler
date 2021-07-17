@@ -67,7 +67,39 @@
         </section> 
          <section class="register">
              <div id="register"><h3>TORNEOS</h3></div>
-             <div id="popUp"></div>
+             <div id="popUp">
+                 <div class="container" id="container">
+                    <div class="formContainer"> 
+                        <i class="fas fa-times close-button" id="close"></i>
+                            <form class="form" name="contact" method="POST" data-netlify="true" enctype="multipart/form-data">
+                                <h2>INSCRIPCION</h2>
+                                   <label for="game">juego</label>
+                                   <select name="game" id="game">
+                                       <option value="freefire">freefire</option>
+                                   </select> 
+                                   <div class="divGroup">
+                                    <div>
+                                        <label for="group">Team</label>
+                                        <input type="radio" name="group" id="team">
+                                    </div>
+                                    <div>
+                                        <label for="group">Clan</label>
+                                        <input type="radio" name="group" id="clan">
+                                    </div>
+                                   </div>
+                                   <label for="name">Nombre del grupo</label>
+                                   <input type="text" name="name" id="name">
+                                   <label for="number">Numero de Celular</label>
+                                   <input type="number" name="number" id="number">
+                                   <label for="ig">Instagram del grupo</label>
+                                   <input type="text" name="ig" id="ig"> 
+                                   <label for="logo">Logo de tu grupo</label>
+                                   <input type="file" name="logo" id="logo">
+                                   <input type="button" value="Enviar" id="send" >
+                                </form>
+                    </div>
+                 </div>
+             </div>
          </section>
         <footer class="contact">
             <div class="cup">
