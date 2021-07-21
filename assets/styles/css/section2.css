@@ -17,113 +17,70 @@
 .games .containerEsport {
   width: 100%;
   height: auto;
+  padding: 20px 0;
   background-color: rgba(0, 0, 0, 0.6);
-  cursor: pointer; }
+  cursor: pointer;
+  margin-bottom: 20px; }
   .games .containerEsport:hover {
     box-shadow: 0px 0px 46px -4px rgba(213, 127, 215, 0.65); }
     .games .containerEsport:hover h2 {
       color: gray; }
+  .games .containerEsport .stats {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #140d3cbf; }
+    .games .containerEsport .stats .construction {
+      width: 100%;
+      height: 20%; }
+    .games .containerEsport .stats .gameStats {
+      font-size: 22px;
+      display: flex;
+      flex-wrap: wrap;
+      background-image: linear-gradient(to bottom, #3d0707, #5f0811, #830616, #a8031a, #cf001b);
+      width: 90%;
+      margin: auto 5%;
+      border-radius: 15px;
+      height: 500px;
+      padding: 15px 0;
+      top: 50%;
+      margin-top: -250px;
+      position: fixed;
+      text-align: center; }
+      .games .containerEsport .stats .gameStats .torneos {
+        width: 100%;
+        font-size: 32px; }
+      .games .containerEsport .stats .gameStats .x {
+        width: 100%; }
+        .games .containerEsport .stats .gameStats .x .close {
+          margin-right: 10px;
+          height: auto;
+          float: right; }
+      .games .containerEsport .stats .gameStats .rate {
+        background-color: rgba(0, 0, 0, 0.678);
+        height: auto;
+        width: 80%;
+        border-radius: 10px; }
+      .games .containerEsport .stats .gameStats div {
+        margin: auto; }
   .games .containerEsport h2 {
     font-size: 35px;
     text-align: center;
     margin-bottom: 35px; }
-  .games .containerEsport .cod {
+  .games .containerEsport #cod {
     width: 100%;
-    height: 250px;
-    background-image: url(../../img/cod.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: 5s; }
-    .games .containerEsport .cod:hover {
-      animation-name: cod;
-      animation-direction: alternate-reverse;
-      animation-duration: 10s;
-      animation-fill-mode: forwards;
-      animation-iteration-count: infinite;
-      animation-play-state: running;
-      animation-timing-function: ease-in-out; }
-@keyframes cod {
-  0% {
-    background-image: url(../../img/cod3.jpg); }
-  50% {
-    background-image: url(../../img/cod2.jpg); }
-  100% {
-    background-image: url(../../img/cod.jpg); } }
-  .games .containerEsport .pubg {
+    height: auto; }
+  .games .containerEsport #pubg {
     width: 100%;
-    height: 250px;
-    background-image: url(../../img/pu1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: 5s; }
-    .games .containerEsport .pubg:hover {
-      animation-name: pubg;
-      animation-direction: alternate-reverse;
-      animation-duration: 8s;
-      animation-fill-mode: forwards;
-      animation-iteration-count: infinite;
-      animation-play-state: running;
-      animation-timing-function: ease-in-out; }
-@keyframes pubg {
-  0% {
-    background-image: url(../../img/pu2.jpg); }
-  35% {
-    background-image: url(../../img/pu3.jpg); }
-  70% {
-    background-image: url(../../img/pu4.jpg); }
-  100% {
-    background-image: url(../../img/pu1.jpg); } }
-  .games .containerEsport .freeFire {
+    height: auto; }
+  .games .containerEsport #free {
     width: 100%;
-    height: 250px;
-    background-image: url(../../img/fre1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: 5s; }
-    .games .containerEsport .freeFire:hover {
-      animation-name: free;
-      animation-direction: alternate-reverse;
-      animation-duration: 8s;
-      animation-fill-mode: forwards;
-      animation-iteration-count: infinite;
-      animation-play-state: running;
-      animation-timing-function: ease-in-out; }
-@keyframes free {
-  0% {
-    background-image: url(../../img/fre2.jpg); }
-  35% {
-    background-image: url(../../img/fre3.jpg); }
-  70% {
-    background-image: url(../../img/fre4.jpg); }
-  100% {
-    background-image: url(../../img/fre1.jpg); } }
-  .games .containerEsport .csgo {
-    width: 100%;
-    height: 250px;
-    background-image: url(../../img/go1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: 5s; }
-    .games .containerEsport .csgo:hover {
-      animation-name: cs;
-      animation-direction: alternate-reverse;
-      animation-duration: 20s;
-      animation-fill-mode: forwards;
-      animation-iteration-count: infinite;
-      animation-play-state: running;
-      animation-timing-function: ease-in-out; }
-@keyframes cs {
-  0% {
-    background-image: url(../../img/go2.jfif); }
-  35% {
-    background-image: url(../../img/go3.jpg); }
-  70% {
-    background-image: url(../../img/go4.jpg); }
-  100% {
-    background-image: url(../../img/go1.jpg); } }
+    height: auto; }
+  .games .containerEsport #csgo {
+    width: 90%;
+    margin: 0 5%;
+    height: auto; }
 
 /*# sourceMappingURL=section2.css.map */

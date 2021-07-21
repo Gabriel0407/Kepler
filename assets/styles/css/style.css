@@ -7,10 +7,11 @@
   list-style: none; }
 
 body {
-  background-image: url(../../img/wallpaper.jpg);
+  background-image: url(../../img/wallpa.jpeg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto; }
+  background-size: auto;
+  background-attachment: fixed; }
   body .space {
     width: 100%;
     height: 1.5px;
@@ -39,26 +40,27 @@ body {
       color: white;
       width: 15px;
       height: 20px;
-      font-size: 18px; }
-  .header .menu-content {
-    display: none;
+      font-size: 24px; }
+  .header .abierto {
     position: fixed;
-    margin-top: 90px;
+    margin-top: 48px;
     width: 100%;
     top: 0;
     height: 100%;
-    font-size: 25px;
+    font-size: 40px;
     text-align: center;
     background-image: linear-gradient(to bottom, #ff0000, #f20101, #e50202, #d90303, #cc0404, #bd0206, #af0108, #a00009, #8c0009, #780008, #640005, #510000); }
-    .header .menu-content .line {
+    .header .abierto .line {
       height: 1.5px;
       width: 78px;
       background-color: white;
       text-align: center;
       margin: auto;
       margin-top: 10px; }
-    .header .menu-content .section-menu {
+    .header .abierto .section-menu {
       margin-top: 20px; }
+  .header .menu-content {
+    display: none; }
   .header .logo {
     margin-right: 4%;
     width: auto;
@@ -109,117 +111,104 @@ body {
 .games .containerEsport {
   width: 100%;
   height: auto;
+  padding: 20px 0;
   background-color: rgba(0, 0, 0, 0.6);
-  cursor: pointer; }
+  cursor: pointer;
+  margin-bottom: 20px; }
   .games .containerEsport:hover {
     box-shadow: 0px 0px 46px -4px rgba(213, 127, 215, 0.65); }
     .games .containerEsport:hover h2 {
       color: gray; }
+  .games .containerEsport .stats {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #140d3cbf; }
+    .games .containerEsport .stats .construction {
+      width: 100%;
+      height: 20%; }
+    .games .containerEsport .stats .gameStats {
+      font-size: 22px;
+      display: flex;
+      flex-wrap: wrap;
+      background-image: linear-gradient(to bottom, #3d0707, #5f0811, #830616, #a8031a, #cf001b);
+      width: 90%;
+      margin: auto 5%;
+      border-radius: 15px;
+      height: 500px;
+      padding: 15px 0;
+      top: 50%;
+      margin-top: -250px;
+      position: fixed;
+      text-align: center; }
+      .games .containerEsport .stats .gameStats .torneos {
+        width: 100%;
+        font-size: 32px; }
+      .games .containerEsport .stats .gameStats .x {
+        width: 100%; }
+        .games .containerEsport .stats .gameStats .x .close {
+          margin-right: 10px;
+          height: auto;
+          float: right; }
+      .games .containerEsport .stats .gameStats .rate {
+        background-color: rgba(0, 0, 0, 0.678);
+        height: auto;
+        width: 80%;
+        border-radius: 10px; }
+      .games .containerEsport .stats .gameStats div {
+        margin: auto; }
   .games .containerEsport h2 {
     font-size: 35px;
     text-align: center;
     margin-bottom: 35px; }
-  .games .containerEsport .cod {
+  .games .containerEsport #cod {
     width: 100%;
-    height: 250px;
-    background-image: url(../../img/cod.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: 5s; }
-    .games .containerEsport .cod:hover {
-      animation-name: cod;
-      animation-direction: alternate-reverse;
-      animation-duration: 10s;
-      animation-fill-mode: forwards;
-      animation-iteration-count: infinite;
-      animation-play-state: running;
-      animation-timing-function: ease-in-out; }
-@keyframes cod {
-  0% {
-    background-image: url(../../img/cod3.jpg); }
-  50% {
-    background-image: url(../../img/cod2.jpg); }
-  100% {
-    background-image: url(../../img/cod.jpg); } }
-  .games .containerEsport .pubg {
+    height: auto; }
+  .games .containerEsport #pubg {
     width: 100%;
-    height: 250px;
-    background-image: url(../../img/pu1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: 5s; }
-    .games .containerEsport .pubg:hover {
-      animation-name: pubg;
-      animation-direction: alternate-reverse;
-      animation-duration: 8s;
-      animation-fill-mode: forwards;
-      animation-iteration-count: infinite;
-      animation-play-state: running;
-      animation-timing-function: ease-in-out; }
-@keyframes pubg {
-  0% {
-    background-image: url(../../img/pu2.jpg); }
-  35% {
-    background-image: url(../../img/pu3.jpg); }
-  70% {
-    background-image: url(../../img/pu4.jpg); }
-  100% {
-    background-image: url(../../img/pu1.jpg); } }
-  .games .containerEsport .freeFire {
+    height: auto; }
+  .games .containerEsport #free {
     width: 100%;
-    height: 250px;
-    background-image: url(../../img/fre1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: 5s; }
-    .games .containerEsport .freeFire:hover {
-      animation-name: free;
-      animation-direction: alternate-reverse;
-      animation-duration: 8s;
-      animation-fill-mode: forwards;
-      animation-iteration-count: infinite;
-      animation-play-state: running;
-      animation-timing-function: ease-in-out; }
-@keyframes free {
-  0% {
-    background-image: url(../../img/fre2.jpg); }
-  35% {
-    background-image: url(../../img/fre3.jpg); }
-  70% {
-    background-image: url(../../img/fre4.jpg); }
-  100% {
-    background-image: url(../../img/fre1.jpg); } }
-  .games .containerEsport .csgo {
-    width: 100%;
-    height: 250px;
-    background-image: url(../../img/go1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: 5s; }
-    .games .containerEsport .csgo:hover {
-      animation-name: cs;
-      animation-direction: alternate-reverse;
-      animation-duration: 20s;
-      animation-fill-mode: forwards;
-      animation-iteration-count: infinite;
-      animation-play-state: running;
-      animation-timing-function: ease-in-out; }
-@keyframes cs {
-  0% {
-    background-image: url(../../img/go2.jfif); }
-  35% {
-    background-image: url(../../img/go3.jpg); }
-  70% {
-    background-image: url(../../img/go4.jpg); }
-  100% {
-    background-image: url(../../img/go1.jpg); } }
+    height: auto; }
+  .games .containerEsport #csgo {
+    width: 90%;
+    margin: 0 5%;
+    height: auto; }
+
 .register {
   width: 100%;
   height: 100px; }
+  .register .dates {
+    text-align: center; }
+    .register .dates h2 {
+      font-size: 50px;
+      margin: 40px 0;
+      font-family: 'Gugi', cursive; }
+      .register .dates h2 b {
+        font-family: 'Gugi', cursive;
+        font-size: 60px;
+        color: red; }
+    .register .dates .games {
+      font-size: 25px;
+      margin: 15px 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      width: 100%;
+      height: auto;
+      padding: 10px 0;
+      border: 2px solid black; }
+      .register .dates .games #ppubg, .register .dates .games #pfree, .register .dates .games #pcsgo, .register .dates .games #pcod {
+        display: none;
+        background-color: #ff090936;
+        width: 80%;
+        margin: auto;
+        border-radius: 20px;
+        padding: 14px 0;
+        flex-direction: column; }
+        .register .dates .games #ppubg #x6, .register .dates .games #ppubg #x7, .register .dates .games #ppubg #x8, .register .dates .games #ppubg #x9, .register .dates .games #pfree #x6, .register .dates .games #pfree #x7, .register .dates .games #pfree #x8, .register .dates .games #pfree #x9, .register .dates .games #pcsgo #x6, .register .dates .games #pcsgo #x7, .register .dates .games #pcsgo #x8, .register .dates .games #pcsgo #x9, .register .dates .games #pcod #x6, .register .dates .games #pcod #x7, .register .dates .games #pcod #x8, .register .dates .games #pcod #x9 {
+          float: right;
+          margin-right: 10px; }
   .register #popUp .container {
     width: 100%;
     height: 100%;
@@ -285,9 +274,10 @@ body {
   .register #register {
     width: 50%;
     height: 55px;
-    background-color: rgba(153, 1, 1, 0.801);
-    margin: auto;
+    background-color: rgba(153, 1, 1, 0.9);
+    margin: 55px auto;
     border-radius: 25px;
+    border: 1.5px solid black;
     display: flex;
     align-items: center; }
     .register #register:hover {

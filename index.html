@@ -16,19 +16,19 @@
     <header class="header">
         <div class="menu" id="burger">
             <i id="burger-icon" class="fas fa-bars icon"></i>
-    </div>   
+        </div>     
         <ul class="menu-content" id="menu">
-         <li class="section-menu">Nosotros</li>
+         <li class="section-menu"><a href="1">Nosotros</a></li>
          <li class="line"></li>
-         <li class="section-menu">Juegos Esports</li>
+         <li class="section-menu"><a href="">Juegos Esports</a></li>
          <li class="line"></li>
-         <li class="section-menu">Contactanos</li>
+         <li class="section-menu"><a href="">Registrate</a></li>
          <li class="line"></li>
         </ul>
         <img class="logo" src="./assets/img/LogoKPR-Kepler-eSports.png" alt="crew logo">
     </header>
     <main>
-        <section class="aboutUs">
+        <section class="aboutUs" id="1">
             <div class="backimg">
                
               <img src="./assets/img/Logo-Kepler-eSports.png" class="title" alt="brand name">
@@ -44,29 +44,136 @@
             </div>
         </section>
         
-        <section class="games">
+        <section class="games" id="2">
             <div class="cup">
             <h2><b>E</b>sport</h2>
             </div>
             <div class="containerEsport">
-               <div class="cod"></div>
-                <h2>COD</h2>
+               <img src="./assets/img/cod.png" alt="game logo" id="cod">
+                <div class="stats" id="statsPopUp">
+               <div class="gameStats">
+                 <div class="x">
+                    <i class="fas fa-times close" id="close2"></i> 
+                 </div>
+                    <div class="torneos">
+                        <h3>Torneos</h3>
+                        <p>3</p>    
+                    </div>
+                    <div class="ganadas">
+                        <h3>Partidas Ganadas</h3>
+                        <p>98</p>    
+                    </div>
+                    <div class="empatadas">
+                        <h3>Partidas igualadas</h3>
+                        <p>0</p>    
+                    </div>
+                    <div class="perdidas">
+                        <h3>Partidas Perdidas</h3>
+                        <p>23</p>    
+                    </div>
+                    <div class="rate">
+                        <h3>Win Rate</h3>
+                        <p>80%</p>    
+                    </div>
+                    <div class="divisiones">
+                        <h3>Divisiones</h3>
+                        <ul>
+                            <li>MAIN</li>
+                            <li>BLACK</li>
+                            <li>FEM</li>
+                        </ul>
+                    </div>
+                </div>
+              </div>
             </div>
+
             <div  class="containerEsport">
-                <div class="freeFire"></div>
-                <h2>Free Fire</h2>
+                <img src="./assets/img/free.png" alt="game logo" id="free">  
+                
+                    <div class="stats" id="statsPopUp2">
+                        <div class="gameStats">
+                        <div class="x">
+                            <i class="fas fa-times close" id="close3"></i> 
+                         </div>
+                         <img class="construction" src="./assets/img/cons.png" alt="">
+                    </div>
+                </div>
             </div>
+
              <div  class="containerEsport">
-                <div class="pubg"></div>
-                <h2>PUBG</h2>
+                <img src="./assets/img/pubg.png" alt="game logo" id="pubg">
+                
+                    <div class="stats" id="statsPopUp3">
+                        <div class="gameStats">
+                        <div class="x">
+                            <i class="fas fa-times close" id="close4"></i> 
+                         </div>
+                         <img  class="construction" src="./assets/img/cons.png" alt="">
+                    </div>
+                </div>
             </div>  
+
             <div  class="containerEsport">
-                <div class="csgo"></div>
-                <h2>CSGO</h2>
+                <img src="./assets/img/cs.png" alt="game logo" id="csgo">
+               
+                    <div class="stats" id="statsPopUp4">
+                        <div class="gameStats">
+                        <div class="x">
+                            <i class="fas fa-times close" id="close5"></i> 
+                        </div>
+                        <img  class="construction"  src="./assets/img/cons.png" alt="">
+                    </div>
+                </div>
             </div>
         </section> 
-         <section class="register">
-             <div id="register"><h3>TORNEOS</h3></div>
+         <section class="register" id="3">
+
+            <div class="dates">
+                    <h2> <b>T</b>ORNEOS</h2>
+                    <div>
+                        <div class="games">
+                            <h3  id="codDate">
+                                COD
+                            </h3>
+                            <p id="pcod">
+                                Fecha 1#: No Disponible <br>
+                                Fecha 2#: No Disponible <br>
+                                Fecha 3#: No Disponible <br>
+                            </p>
+                        </div>
+                        <div class="games">
+                            <h3  id="freeDate">
+                                Free Fire
+                            </h3>
+                            <p id="pfree">
+                                Fecha 1#: No Disponible <br>
+                                Fecha 2#: No Disponible <br>
+                                Fecha 3#: No Disponible <br>
+                            </p>
+                        </div>
+                        <div class="games">
+                            <h3 id="pubgDate">
+                                PUBG
+                            </h3>
+                            <p id="ppubg">
+                                Fecha 1#: No Disponible <br>
+                                Fecha 2#: No Disponible <br>
+                                Fecha 3#: No Disponible <br>
+                            </p>
+                        </div>
+                        <div class="games" >
+                            <h3 id="csgoDate">
+                                CSGO
+                            </h3>
+                            <p id="pcsgo">
+                                Fecha 1#: No Disponible <br>
+                                Fecha 2#: No Disponible <br>
+                                Fecha 3#: No Disponible <br>
+                            </p>
+                        </div>
+                    </div>
+            </div>
+             <div id="register"><h3>Registrar</h3></div>
              <div id="popUp">
                  <div class="container" id="container">
                     <div class="formContainer"> 
@@ -100,17 +207,18 @@
                     </div>
                  </div>
              </div>
+             <footer class="contact">
+                <div class="cup">
+                    <h2><b>U</b>nite a <b>k</b>epler</h2>
+                  
+                </div> 
+                 <div class="links">
+                        <a href="https://www.instagram.com/kepler.esport_/"><i class="fab fa-instagram link"></i></a>
+                        <i class="fab fa-facebook-f link"><a href=""></a></i>
+                    </div>
+                </footer>
          </section>
-        <footer class="contact">
-            <div class="cup">
-                <h2><b>U</b>nite a <b>k</b>epler</h2>
-              
-            </div> 
-             <div class="links">
-                    <i class="fab fa-instagram link"><a href=""></a></i>
-                    <i class="fab fa-facebook-f link"><a href=""></a></i>
-                </div>
-            </footer>
+        
             
         
     </main>

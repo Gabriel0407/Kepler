@@ -1,6 +1,35 @@
 .register {
   width: 100%;
   height: 100px; }
+  .register .dates {
+    text-align: center; }
+    .register .dates h2 {
+      font-size: 50px;
+      margin: 40px 0;
+      font-family: 'Gugi', cursive; }
+      .register .dates h2 b {
+        font-family: 'Gugi', cursive;
+        font-size: 60px;
+        color: red; }
+    .register .dates .games {
+      font-size: 25px;
+      margin: 15px 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      width: 100%;
+      height: auto;
+      padding: 10px 0;
+      border: 2px solid black; }
+      .register .dates .games #ppubg, .register .dates .games #pfree, .register .dates .games #pcsgo, .register .dates .games #pcod {
+        display: none;
+        background-color: #ff090936;
+        width: 80%;
+        margin: auto;
+        border-radius: 20px;
+        padding: 14px 0;
+        flex-direction: column; }
+        .register .dates .games #ppubg #x6, .register .dates .games #ppubg #x7, .register .dates .games #ppubg #x8, .register .dates .games #ppubg #x9, .register .dates .games #pfree #x6, .register .dates .games #pfree #x7, .register .dates .games #pfree #x8, .register .dates .games #pfree #x9, .register .dates .games #pcsgo #x6, .register .dates .games #pcsgo #x7, .register .dates .games #pcsgo #x8, .register .dates .games #pcsgo #x9, .register .dates .games #pcod #x6, .register .dates .games #pcod #x7, .register .dates .games #pcod #x8, .register .dates .games #pcod #x9 {
+          float: right;
+          margin-right: 10px; }
   .register #popUp .container {
     width: 100%;
     height: 100%;
@@ -66,9 +95,10 @@
   .register #register {
     width: 50%;
     height: 55px;
-    background-color: rgba(153, 1, 1, 0.801);
-    margin: auto;
+    background-color: rgba(153, 1, 1, 0.9);
+    margin: 55px auto;
     border-radius: 25px;
+    border: 1.5px solid black;
     display: flex;
     align-items: center; }
     .register #register:hover {

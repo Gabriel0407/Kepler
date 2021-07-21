@@ -19,26 +19,27 @@
       color: white;
       width: 15px;
       height: 20px;
-      font-size: 18px; }
-  .header .menu-content {
-    display: none;
+      font-size: 24px; }
+  .header .abierto {
     position: fixed;
-    margin-top: 90px;
+    margin-top: 48px;
     width: 100%;
     top: 0;
     height: 100%;
-    font-size: 25px;
+    font-size: 40px;
     text-align: center;
     background-image: linear-gradient(to bottom, #ff0000, #f20101, #e50202, #d90303, #cc0404, #bd0206, #af0108, #a00009, #8c0009, #780008, #640005, #510000); }
-    .header .menu-content .line {
+    .header .abierto .line {
       height: 1.5px;
       width: 78px;
       background-color: white;
       text-align: center;
       margin: auto;
       margin-top: 10px; }
-    .header .menu-content .section-menu {
+    .header .abierto .section-menu {
       margin-top: 20px; }
+  .header .menu-content {
+    display: none; }
   .header .logo {
     margin-right: 4%;
     width: auto;
