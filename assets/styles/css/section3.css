@@ -29,7 +29,8 @@
         flex-direction: column; }
         .register .dates .games #ppubg #x6, .register .dates .games #ppubg #x7, .register .dates .games #ppubg #x8, .register .dates .games #ppubg #x9, .register .dates .games #pfree #x6, .register .dates .games #pfree #x7, .register .dates .games #pfree #x8, .register .dates .games #pfree #x9, .register .dates .games #pcsgo #x6, .register .dates .games #pcsgo #x7, .register .dates .games #pcsgo #x8, .register .dates .games #pcsgo #x9, .register .dates .games #pcod #x6, .register .dates .games #pcod #x7, .register .dates .games #pcod #x8, .register .dates .games #pcod #x9 {
           float: right;
-          margin-right: 10px; }
+          font-size: 40px;
+          margin-right: 30px; }
   .register #popUp .container {
     width: 100%;
     height: 100%;
